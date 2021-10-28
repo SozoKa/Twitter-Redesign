@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil / Twitter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/twitter.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4835d21f0c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="head border-box">
+        <div class="head-content">
+            <div class="head-content-text">Accueil</div>
+            <div class="head-content-explore"><i class="far fa-star"></i></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="navbar not-selectable">
+            <ul>
+                <li><a href="" class="active"><i class="fas fa-home sr-20"></i><span>Accueil</span></a></li>
+                <li><a href=""><i class="fas fa-hashtag sr-20"></i><span>Explorer</span></a></li>
+                <li><a href=""><i class="far fa-bell sr-20"></i><span>Notifications</span></a></li>
+                <li><a href=""><i class="far fa-envelope sr-20"></i><span>Messages</span></a></li>
+                <li><a href=""><i class="far fa-bookmark sr-20"></i><span>Signets</span></a></li>
+                <li><a href=""><i class="far fa-list-alt sr-20"></i><span>Listes</span></a></li>
+                <li><a href=""><i class="far fa-user sr-20"></i><span>Profil</span></a></li>
+                <li><a href=""><i class="fas fa-ellipsis-h sr-20"></i><span>Plus</span></a></li>
+                <input type="button" value="Tweet">
+            </ul>
+            <div class="profil border-box">
+                <div class="profil-background">
+                    <div class="user">
+                        <img src="img/argellika.jpg" alt="Profil">
+                        <div class="sl-10">
+                            <span>ArgelliKa 🤡</span>
+                            <span>@ArgelliKa</span>
+                        </div>
+                    </div>    
+                    <i class="fas fa-ellipsis-h more"></i>
+                </div>
+            </div>
+        </div>
+        <div class="feed">
+            <div class="send border-box">
+                <div class="message">
+                    <img class="sr-20 not-selectable" src="img/argellika.jpg" alt="">
+                    <textarea type="textbox" name="Nouveau Tweet" placeholder="Quoi de neuf ?" maxlength="260" oninput="auto_grow(this)"></textarea>
+                </div>
+                <div class="sending su-10">
+                    <div class="other">
+                        <i class="fas fa-images"></i>
+                        <i class="fas fa-poll-h"></i>
+                    </div>
+                    <input type="button" value="Tweet">
+                </div>
+            </div>
+            <div class="spacing border-box"></div>
+            <div class="post border-box">
+                <div class="side">
+                    <img src="img/johannes.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="user">
+                        <div class="name">Johannes Herrmann (Phylloscopus)</div>
+                        <div class="at">@Taigasangare</div>
+                        <div class="time">7 min</div>
+                    </div>
+                    <div class="message">
+                        Twitter est en train de réinventer, mais pièce par pièce, les obsèques de l'abbé Quille, c'est émouvant.
+                    </div>
+                    <div class="reactions">
+                        <div><i class="far fa-comment"></i><span>2</span></div>
+                        <div><i class="fas fa-retweet"></i><span>10</span></div>
+                        <div><i class="far fa-heart"></i><span>21</span></div>
+                        <div><i class="far fa-share-square"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post border-box">
+                <div class="side">
+                    <img src="img/netflix.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="user">
+                        <div class="name">Netflix France</div>
+                        <div class="at">@NetflixFR</div>
+                        <div class="time">32 min</div>
+                    </div>
+                    <div class="message">
+                        <span>Leonardo DiCaprio s’est vraiment ouvert la paume de la main dans Django Unchained. Et Tarantino a continué à filmer. Voilà pour l’anecdote.<br><br>Le film est toujours dispo.</span>
+                    </div>
+                    <div class="visuals">
+                        <img src="img/netflix-post.jpg" alt="">
+                    </div>
+                    <div class="reactions">
+                        <div><i class="far fa-comment"></i><span>91</span></div>
+                        <div><i class="fas fa-retweet"></i><span>1 k</span></div>
+                        <div><i class="far fa-heart"></i><span>11,2 k</span></div>
+                        <div><i class="far fa-share-square"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post border-box">
+                <div class="side">
+                    <img src="img/rocket-league.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="user">
+                        <div class="name">Rocket League</div>
+                        <div class="at">@RocketLeague</div>
+                        <div class="time">2 juin</div>
+                    </div>
+                    <div class="message">
+                        <span>Time to get ✨TACTICAL✨<br><br>Rocket League's newest LTM, Tactical Rumble, starts tomorrow!<br><br>Here's everything you need to know: <a href="https://epic.gm/TacticalRumble" target="_blank">https://epic.gm/TacticalRumble</a></span>
+                    </div>
+                    <div class="visuals">
+                        <img src="img/rocket-league-post.jpg" alt="">
+                    </div>
+                    <div class="reactions">
+                        <div><i class="far fa-comment"></i><span>103</span></div>
+                        <div><i class="fas fa-retweet"></i><span>320</span></div>
+                        <div><i class="far fa-heart"></i><span>4 k</span></div>
+                        <div><i class="far fa-share-square"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore">
+            <input class="search border-box not-selectable" type="input" placeholder="Recherche Twitter">
+            <div class="trends su-10"></div>
+            <div class="suggestions su-10"></div>
+        </div>
+    </div>
+</body>
+<script>
+    function auto_grow(element) {
+        element.style.height = "24px";
+        element.style.height = (element.scrollHeight)+"px";
+    }
+</script>
+</html>
